@@ -30,6 +30,7 @@
                     <option value="general" {% if search_type == 'general' %}selected{% endif %}>Ник / Email</option>
                     <option value="phone" {% if search_type == 'phone' %}selected{% endif %}>Телефон</option>
                     <option value="name" {% if search_type == 'name' %}selected{% endif %}>ФИО</option>
+                    <option value="photo" {% if search_type == 'photo' %}selected{% endif %}>Поиск Фото</option>
                 </select>
                 <input type="text" name="query" placeholder="Введите данные..." value="{{ query }}" required>
             </div>
